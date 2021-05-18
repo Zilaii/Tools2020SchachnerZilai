@@ -11,6 +11,7 @@ public class Stack {
 		xTestX = xTestX * xTestX; 
 		System.out.println("This is a new Method!");
 		System.out.println("This fixes bug 1");
+		System.out.println("This fixes bug 2");
 	}
 
 
