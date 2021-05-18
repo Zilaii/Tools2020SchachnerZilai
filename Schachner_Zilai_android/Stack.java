@@ -25,6 +25,7 @@ public class Stack {
 	}
 	
 	public void clear() {
+		xTestX = 69;
 		for (int i = 0; i < size; i++) {
 			stack[i] = 0;
 		}
