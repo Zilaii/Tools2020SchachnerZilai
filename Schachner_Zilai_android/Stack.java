@@ -10,6 +10,7 @@ public class Stack {
 	public void thisIsANewMethod() { 
 		xTestX = xTestX * xTestX; 
 		System.out.println("This is a new Method!");
+		System.out.println("This fixes bug 1");
 	}
 
 
