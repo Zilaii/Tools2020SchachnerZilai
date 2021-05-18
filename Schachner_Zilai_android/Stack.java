@@ -4,6 +4,9 @@ public class Stack {
 	private int[] stack;
 	private int top, size;
 	
+
+	public void thisIsANewMethod() {  }
+
 	public void initStack (int size) {
 		if (size <= 0) {
 			size = 10;
