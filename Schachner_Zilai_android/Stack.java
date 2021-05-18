@@ -42,6 +42,7 @@ public class Stack {
 	}
 
 	public int pop() {
+		xTestX = 707;
 		if (top <= 0) {
 			top = size;
 		}
