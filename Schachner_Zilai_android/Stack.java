@@ -6,9 +6,12 @@ public class Stack {
 	int xTestX;
 	
 
+
 	public void thisIsANewMethod() { 
 		xTestX = xTestX * xTestX; 
+		System.out.println("This is a new Method!");
 	}
+
 
 	public void initStack (int size) {
 		xTestX = 420;
