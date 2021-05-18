@@ -3,8 +3,10 @@ package opr.ue01.aufgabe01;
 public class Stack {
 	private int[] stack;
 	private int top, size;
+	int xTestX;
 	
 	public void initStack (int size) {
+		xTestX = 420;
 		if (size <= 0) {
 			size = 10;
 			System.out.println("Stack size is to small and was set to 10! (minumum 1)");
