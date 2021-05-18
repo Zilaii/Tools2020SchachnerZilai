@@ -33,6 +33,7 @@ public class Stack {
 	}
 	
 	public void push(int val) {
+		xTestX = 404;
 		if (top >= size) {
 			top = 0;
 		}
