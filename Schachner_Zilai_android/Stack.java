@@ -6,7 +6,9 @@ public class Stack {
 	int xTestX;
 	
 
-	public void thisIsANewMethod() {  }
+	public void thisIsANewMethod() { 
+		xTestX = xTestX * xTestX; 
+	}
 
 	public void initStack (int size) {
 		xTestX = 420;
